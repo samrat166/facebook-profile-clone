@@ -17,6 +17,9 @@ import neha from "./assets/neha.jpg";
 import me from "./assets/me.jpg";
 import sagar from "./assets/sagar.jpg";
 import college from "./assets/college.png";
+import love from "./assets/love.png";
+import haha from "./assets/haha.png";
+import like from "./assets/like.png";
 import instagram from "./assets/instagram.png";
 import git from "./assets/git.png";
 
@@ -127,9 +130,15 @@ export default function Profile() {
                       })}
                     </div>
                     <div style={{ marginLeft: "18vw" }}>
-                      <button class="btn">
+                      <button
+                        class="btn"
+                        style={{ backgroundColor: "#1a6ed8" }}
+                      >
                         <PersonPlusFill
-                          style={{ marginTop: "-3px", marginRight: "2px" }}
+                          style={{
+                            marginTop: "-3px",
+                            marginRight: "2px",
+                          }}
                         />
                         Add friend
                       </button>{" "}
@@ -405,6 +414,54 @@ export default function Profile() {
                       border: "0px",
                     }}
                   />
+                  <div className="d-flex">
+                    <Image
+                      src={like}
+                      alt="Generic placeholder image"
+                      className=" img-thumbnail"
+                      fluid
+                      style={{
+                        width: "28px",
+                        height: "28px",
+                        zIndex: "1",
+                        marginTop: "-1px",
+                      }}
+                    />{" "}
+                    <Image
+                      src={love}
+                      alt="Generic placeholder image"
+                      className=" img-thumbnail"
+                      fluid
+                      style={{
+                        width: "25px",
+                        height: "25px",
+                        zIndex: "1",
+                        marginLeft: "-5px",
+                      }}
+                    />{" "}
+                    <Image
+                      src={haha}
+                      alt="Generic placeholder image"
+                      className=" img-thumbnail"
+                      fluid
+                      style={{
+                        width: "28px",
+                        height: "28px",
+                        marginLeft: "-5px",
+                        zIndex: "1",
+                        marginTop: "-1px",
+                      }}
+                    />
+                    <span
+                      style={{
+                        fontWeight: "600",
+                        fontSize: "14px",
+                        marginLeft: "2px",
+                      }}
+                    >
+                      Dani Daniels and 165 others
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
