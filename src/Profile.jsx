@@ -13,6 +13,7 @@ import instagram from "./assets/instagram.png";
 import like from "./assets/like.png";
 import location from "./assets/location.png";
 import love from "./assets/love.png";
+import share from "./assets/share.png";
 import me from "./assets/me.jpg";
 import mummy from "./assets/mummy.jpg";
 import pp from "./assets/Mypp.jpg";
@@ -198,15 +199,15 @@ export default function Profile() {
             })}
           </div>
         </Card>
-        <div style={{ padding: "5px 1px" }}>
+        <div style={{ padding: "6px 1px" }}>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div
               style={{
                 width: "49%",
                 borderRadius: "4px",
                 backgroundColor: "white",
-                padding: "2px 5px",
-                height: "220px",
+                padding: "2px 5px 5px 5px",
+                height: "225px",
               }}
             >
               <h3 style={{ fontWeight: "600", fontSize: "16px" }}>Intro</h3>
@@ -230,10 +231,10 @@ export default function Profile() {
                       className=" img-thumbnail"
                       fluid
                       style={{
-                        width: "22px",
-                        height: "22px",
-                        marginTop: "5px",
-                        marginLeft: "-5px",
+                        width: "25px",
+                        height: "25px",
+                        marginTop: "2px",
+                        marginLeft: "2px",
                       }}
                     />
                     <span
@@ -347,7 +348,7 @@ export default function Profile() {
                 className=" img-thumbnail"
                 fluid
                 style={{
-                  width: "400px",
+                  width: "440px",
                   height: "220px",
                   border: "0px",
                 }}
@@ -399,6 +400,48 @@ export default function Profile() {
                 >
                   Dani Daniels and 165 others
                 </span>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-around",
+                  width: "102.5%",
+                  backgroundColor: "white",
+                  padding: "2px 5px",
+                  marginLeft: "-5px",
+                  height: "40px",
+                }}
+              >
+                <div>
+                  <Image
+                    src={love}
+                    alt="Generic placeholder image"
+                    className=" img-thumbnail"
+                    fluid
+                    style={{
+                      width: "25px",
+                      height: "25px",
+                      zIndex: "1",
+                      marginLeft: "-5px",
+                    }}
+                  />{" "}
+                  <span style={{ color: "red", fontSize: "14px" }}>Love</span>
+                </div>{" "}
+                <div>
+                  <Image
+                    src={share}
+                    alt="Generic placeholder image"
+                    className=" img-thumbnail"
+                    fluid
+                    style={{
+                      width: "25px",
+                      height: "25px",
+                      zIndex: "1",
+                      marginLeft: "-5px",
+                    }}
+                  />{" "}
+                  <span style={{ fontSize: "14px" }}>Share</span>
+                </div>
               </div>
             </div>
           </div>
