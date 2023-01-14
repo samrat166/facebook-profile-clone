@@ -398,7 +398,7 @@ export default function Profile() {
                     marginLeft: "2px",
                   }}
                 >
-                  Dani Daniels and 165 others
+                  You and 165 others
                 </span>
               </div>
               <div
