@@ -320,7 +320,7 @@ export default function Profile() {
                   >
                     Samrat Ojha
                   </span>{" "}
-                  updated his profile picture
+                  added a new photo
                   <h6
                     style={{
                       fontWeight: "600",
