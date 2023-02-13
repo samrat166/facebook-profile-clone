@@ -16,7 +16,7 @@ import love from "./assets/love.png";
 import share from "./assets/share.png";
 import me from "./assets/me.jpg";
 import mummy from "./assets/mummy.jpg";
-import pp from "./assets/Mypp.jpg";
+import pp from "./assets/Mypp.jpeg";
 import neha from "./assets/neha.jpg";
 import original from "./assets/originalpp.jpg";
 import sagar from "./assets/sagar.jpg";
