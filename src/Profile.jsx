@@ -328,7 +328,7 @@ export default function Profile() {
                       marginTop: "-2px",
                     }}
                   >
-                    October 16,1999
+                    October 16,1999 at 6:25 AM
                   </h6>
                 </p>
               </div>
